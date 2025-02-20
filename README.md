@@ -6,8 +6,7 @@ A comprehensive tool for detecting and analyzing sleep apnea through respiratory
 
 This application provides a research-grade solution for sleep apnea detection following American Academy of Sleep Medicine (AASM) guidelines. It combines traditional signal processing techniques with deep learning to offer an accessible alternative to polysomnography.
 
-![image](https://github.com/user-attachments/assets/ad0dc389-e1c1-46b5-830c-ab80286629cc)
-
+![image](https://github.com/user-attachments/assets/599d2b5e-c984-41fa-8341-b284c4cbeb14)
 
 ## Features
 
@@ -70,37 +69,7 @@ streamlit run app.py
 ```
 
 
-## Technical Implementation
 
-### Signal Processing Pipeline
-- Butterworth bandpass filter (0.1-0.5 Hz)
-- Adaptive baseline wander removal
-- Feature extraction using TSFEL
-
-### LSTM Network Architecture
-```
-Model: Sequential
-_________________________________________________________________
- Layer (type)                Output Shape              Param #   
-=================================================================
- input_layer (InputLayer)    [(None, 100, 1)]         0         
-                                                                 
- lstm_1 (LSTM)               (None, 100, 64)          16896     
-                                                                 
- dropout_1 (Dropout)         (None, 100, 64)          0         
-                                                                 
- lstm_2 (LSTM)               (None, 32)               12416     
-                                                                 
- dropout_2 (Dropout)         (None, 32)               0         
-                                                                 
- dense_1 (Dense)             (None, 16)               528       
-                                                                 
- dense_2 (Dense)             (None, 1)                17        
-=================================================================
-Total params: 29,857
-Trainable params: 29,857
-Non-trainable params: 0
-```
 
 
 ## Future Directions
