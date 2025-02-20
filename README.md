@@ -83,3 +83,4 @@ streamlit run app.py
 ## Contributors
 
 - Gandham Mani Saketh
+- Abdul Faheem
