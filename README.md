@@ -6,7 +6,8 @@ A comprehensive tool for detecting and analyzing sleep apnea through respiratory
 
 This application provides a research-grade solution for sleep apnea detection following American Academy of Sleep Medicine (AASM) guidelines. It combines traditional signal processing techniques with deep learning to offer an accessible alternative to polysomnography.
 
-![image](https://github.com/user-attachments/assets/599d2b5e-c984-41fa-8341-b284c4cbeb14)
+![image](https://github.com/user-attachments/assets/203ffd5b-d434-4ede-af8d-d5fc9bb91a0d)
+
 
 ## Features
 
